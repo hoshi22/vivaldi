@@ -1,51 +1,16 @@
+/* Make Web Panel Headers Bold */
+.panel > header h1 {
+	font-weight:bold !important;
+}
+
+/* Font size for tabs tittles */
+.tab .title {
+    font-size: 11.4px !important;
+}
+
 
 .bookmark-bar .observer {
     justify-content: center;
+    font-size: 14px;
 }
 
-.bookmark-bar {
-    font-size: 14.6px;
-}
-
-/* div.toolbar-extensions::before {
-    display: none;
-}
-
-.address-top .mainbar > .toolbar-mainbar .toolbar-extensions:before, .address-top .mainbar > .toolbar-mainbar .page-zoom-controls:before, .address-top .mainbar > .toolbar-mainbar:before {
-    background-color: transparent;
-}
-
-.button-toolbar.newtab {
-    margin-left: 2px;
-}
-  
-.toolbar-mainbar {
-    height: 40px;
-    border: none;
- }
-
-.UrlBar-AddressField {
-    height: 28px;
-}
-  
-.bookmark-bar {
-    height: 24px;
-    margin-top: -6px;
-}
-  
-.bookmarkbarItem {
-    border-radius: 4px !important;
-} */
-  
-  /***************************************** Utils *******************************************/
-  
-  /* fix offset in input fields */
-  /* input[type="search"] {
-    padding: 5px 3px 5px 12px;
-  }
-
-  #PlacesToolbarItems .bookmark-item {
-    border: 1px solid red;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-  } */
